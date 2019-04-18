@@ -108,6 +108,12 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: lightgrey;
+    font-weight: bold;
+}
+
 .wrapper {
     /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
     display: flex;
@@ -116,27 +122,27 @@ body {
     width: 100%;
 }
 
-#content {
+.content {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     background: #a596b0;
-    background: rgba(129,126,159, 0.7);
+    background: rgba(129,126,159, 0.9);
     color: #fff;
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 1.25em;
     line-height: 1.5em;
-    border-radius: 5px;
+    
     padding: 0px 30px;
     width: 300px;
     height: 300px;
 }
 
-#content p span {
+.content p span {
     font-family: 'Lora', sans-serif;
 }
 
-.wrapper, #content {
+.wrapper, .content {
     justify-content: center;
     align-items: center;
 }
